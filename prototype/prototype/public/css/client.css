@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.dynamicChart {
+	margin-top: 1em;
+	height: 100%;
+	width: 100%;
+}
+
+html {
+  margin: 15px auto;
+  width: 940px;
+  background-color: aliceblue;
+  color: white;
+}
+
+* {
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* CSS BUTTON */
+.button {
+  border: none;
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 50px;
+  border-radius: 3px;
+  margin:5px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  transition: text-shadow 0.3s ease;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+  border-bottom-width: 2px;
+}
+
+.button:hover {
+  text-shadow: 2px 2px 0px rgba(0,0,0,.3)
+}
+
+input[type=text], input[type=password] {
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.15);
+  border: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  transition:background-color 0.5s ease;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgba(0,0,0,0.25);
+}
+
+input[type=submit], input[type=button] {
+  color: white;
+  display: block;
+  width:100%;
+  margin-top:15px;
+  border: none;
+  padding: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
